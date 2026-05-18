@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A polished DevOps Lab landing page with modern visuals and interactive sections." />
+  <title>DevOps Lab Finale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="grid-overlay"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="DevOps Lab Finale home">
+        <span class="brand-mark">DL</span>
+        <span>
+          <strong>DevOps Lab</strong>
+          <small>Finale</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="nav-links">
+        <a href="#highlights">Highlights</a>
+        <a href="#pipeline">Pipeline</a>
+        <a href="#metrics">Metrics</a>
+        <a href="#contact">Launch</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Ship faster. Observe better. Recover cleaner.</p>
+          <h1>Build a sharper DevOps showcase with a bold, modern front end.</h1>
+          <p class="lede">
+            This landing page turns the lab project into a polished presentation: vivid gradients,
+            glass panels, strong typography, and lightweight interaction that feels intentional.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#pipeline">Explore pipeline</a>
+            <a class="button button-secondary" href="#contact">View launch notes</a>
+          </div>
+
+          <dl class="hero-stats">
+            <div>
+              <dt data-count="24">0</dt>
+              <dd>automation layers</dd>
+            </div>
+            <div>
+              <dt data-count="99">0</dt>
+              <dd>uptime mindset</dd>
+            </div>
+            <div>
+              <dt data-count="7">0</dt>
+              <dd>delivery stages</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-panel">
+          <div class="status-card glass-card reveal delay-1">
+            <div class="status-card__top">
+              <span class="pill pill-live">Live</span>
+              <span class="status-label">Deployment console</span>
+            </div>
+
+            <div class="terminal" aria-label="Deployment output">
+              <p><span class="prompt">$</span> boot sequence initiated</p>
+              <p><span class="prompt">$</span> terraform plan ready</p>
+              <p><span class="prompt">$</span> container registry synced</p>
+              <p><span class="prompt">$</span> monitoring signals stable</p>
+              <p class="terminal-line terminal-line--typing" data-terminal-line>_</p>
+            </div>
+          </div>
+
+          <div class="mini-grid reveal delay-2">
+            <article class="glass-card info-card">
+              <span>Pipeline</span>
+              <strong>Secure, tested, repeatable</strong>
+            </article>
+            <article class="glass-card info-card accent-card">
+              <span>Observability</span>
+              <strong>Logs, metrics, alerts in one view</strong>
+            </article>
+            <article class="glass-card info-card">
+              <span>Delivery</span>
+              <strong>Small batches, clean rollouts</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="highlights" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Highlights</p>
+          <h2>Everything the page needs to feel finished.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="glass-card feature-card reveal delay-1">
+            <div class="feature-icon">01</div>
+            <h3>Expressive layout</h3>
+            <p>Large headings, layered cards, and a clean information hierarchy keep the page readable and premium.</p>
+          </article>
+
+          <article class="glass-card feature-card reveal delay-2">
+            <div class="feature-icon">02</div>
+            <h3>Clear motion</h3>
+            <p>Subtle reveals, animated counters, and a live terminal line add energy without turning noisy.</p>
+          </article>
+
+          <article class="glass-card feature-card reveal delay-3">
+            <div class="feature-icon">03</div>
+            <h3>Responsive by design</h3>
+            <p>The grid collapses cleanly on smaller screens so the presentation still feels strong on mobile.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="pipeline" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Pipeline</p>
+          <h2>A visual story for how work moves from code to production.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item glass-card reveal delay-1">
+            <span class="timeline-step">Plan</span>
+            <h3>Scope the change</h3>
+            <p>Gather requirements, define the goal, and frame the delivery around something measurable.</p>
+          </article>
+
+          <article class="timeline-item glass-card reveal delay-2">
+            <span class="timeline-step">Build</span>
+            <h3>Create the artifact</h3>
+            <p>Assemble the UI, structure the flow, and keep the interface focused on a single clear message.</p>
+          </article>
+
+          <article class="timeline-item glass-card reveal delay-3">
+            <span class="timeline-step">Deploy</span>
+            <h3>Ship with confidence</h3>
+            <p>Validate the experience, connect the feedback loop, and present the finished result cleanly.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="metrics" class="section metrics reveal">
+        <div class="metrics-copy">
+          <p class="eyebrow">Metrics</p>
+          <h2>Designed to look like a real product page, not a generic template.</h2>
+          <p>
+            The contrast, spacing, and accent system are tuned for a strong visual identity. The JavaScript only
+            supports polish: counters, navigation state, and the terminal animation.
+          </p>
+        </div>
+
+        <div class="metrics-board glass-card">
+          <div class="metric">
+            <span>Build score</span>
+            <strong data-count="92">0</strong>
+          </div>
+          <div class="metric">
+            <span>Observability</span>
+            <strong data-count="88">0</strong>
+          </div>
+          <div class="metric">
+            <span>Release confidence</span>
+            <strong data-count="96">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta reveal">
+        <div>
+          <p class="eyebrow">Launch</p>
+          <h2>Ready to make the repo look like a finished product.</h2>
+        </div>
+        <a class="button button-primary" href="#home">Back to top</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>DevOps Lab Finale</p>
+      <p>Built for a clean, modern presentation.</p>
+      <p><span id="current-year"></span></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
